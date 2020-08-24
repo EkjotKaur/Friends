@@ -21,14 +21,6 @@ const contents = [
   }
 ]
 
-console.log(contents[0].img);
-
-
-
-
-// contents.forEach((img, title, body) => {
-
-// });
 
 const content = document.getElementById("series");
 
@@ -44,7 +36,7 @@ function showDetails(series){
       </div>
       <div class="row justify-content-around m-0 p-xl-5">
         <div class="col-6 col-md-5 col-xl-4 my-5">
-          <img src=${contents[series].img} alt="">
+          <img src=${contents[series].img} alt="friends-img">
         </div>
         <div class="col-11 mt-0 col-xl-7 p-xl-3 my-xl-4">
             <h1 class="display-4 display-lg-3">${contents[series].title}</h1>
